@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>ES6</title>
+</head>
+<body>
+
+
+<script type="text/javascript">
+	
+	// Default parameters in ES6
+	function 
+	createElement(tag='div',content="I'am a miracle",classes=["default","cosmos"])
+	{
+      const  elem = document.createElement(tag);
+      const  textNode =  document.createTextNode(content);
+             elem.classList.add(...classes);
+             elem.appendChild(textNode);
+
+     document.body.appendChild(elem);    
+	}
+    
+    createElement();
+
+
+
+</script>
+</body>
+</html>
